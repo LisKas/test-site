@@ -1,0 +1,66 @@
+$inline: inline-block;
+$radius: 5px;
+$text-shadow:1px 1px 0 rgba(0 , 0 , 0, .3);
+
+/*----------COLORS----------------------*/
+$color-opacity: rgba(255, 255, 255, .8);
+$lightblue: #49cbcd;
+$color-gray: #485460;
+/*--------------------------------------*/
+
+
+@mixin text-shadow($text-shadow) {
+  -webkit-text-shadow: $text-shadow;
+     -moz-text-shadow: $text-shadow;
+      -ms-text-shadow: $text-shadow;
+          text-shadow: $text-shadow;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin list {
+	ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { 
+  	display: $inline;
+    border-bottom: 2px solid transparent;
+  	}
+
+  a {
+    display: block;
+    text-decoration: none;
+    }
+}
+
+@mixin button{
+	display: $inline;
+	text-decoration: none;
+	color: #fff;
+	@include border-radius($radius);
+}
+
+@mixin social-bg{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+}
+
+@mixin input{
+	width: 48%;
+	font-size: 16px;
+	margin-bottom: 25px;
+	padding: 12px 20px;
+	border-radius: 5px;
+	border:none;
+	font-family: 'Open Sans', sans-serif;
+}
+

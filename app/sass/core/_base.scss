@@ -1,0 +1,100 @@
+@import "var";
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; 
+    display: table; 
+}
+* {
+	box-sizing: border-box;
+}
+
+*:focus{
+	outline: none;
+}
+
+
+.clearfix:after {
+    clear: both;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	color: #4e525d;
+	font-size: 14px;
+
+}
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+
+    
+.head-site{
+	z-index: 3;
+	background-color: $color-opacity;
+	
+	line-height: 24px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+}
+.navigator {
+  float: right;
+  font-size: 15px;
+  text-align: center;
+  max-width: 600px;
+}
+
+.promo-slaider{
+	background: url('../img/slaid.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+
+	margin-top: 104px;
+}
+
+
+.team{
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom: 70px;
+}
+
+h2 { 
+	font-size: 42px;
+    margin: 0;
+	margin-bottom: 110px;
+	text-align: center;
+
+}
+.plans{
+	padding-top: 120px;
+	padding-bottom: 100px;
+	background-color: #f1f1f1;
+}
+.contact{
+	padding-top: 90px;
+	padding-bottom: 95px;
+	background-image: url('../img/bg-contact.png');
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+
+form{
+	font-size: 16px;
+	max-width: 570px;
+	float: right;
+}
+
+
+
+
+

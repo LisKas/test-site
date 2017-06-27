@@ -1,0 +1,342 @@
+
+@media screen and (max-width: 1300px) {
+
+.slaider {
+  	.right-control {
+	margin-right: 40px;
+    }
+    .left-control {
+	margin-left: 40px;
+    }
+   .promo-slaider__slaid {
+	
+    	h1 {
+	  	font-size: 55px;
+    	}
+    	.text-slaid{
+    	padding:0 250px;
+    	}
+    }
+	}
+}
+/*//////////////////////////////////////////////////////////////////*/
+@media screen and (max-width: 1200px) {
+.contact{
+	text-align: center;
+	.contact-col50{
+		float: none;
+		width: 100%;
+	    p {
+	    	padding: 0 120px;
+		}
+		p:nth-child(4){
+			margin-bottom: 30px;
+		}
+	}
+}  
+
+form{
+	float: none;
+	width: 100%;
+	margin: 0 auto;
+	
+}
+.submit{
+	float: none;
+	padding: 10px 50px;
+	font-size: 16px;
+}
+}
+/*///////////////////////////////////////////////////////////////////////////*/
+@media screen and (max-width: 1140px) {
+
+h2 { 
+	font-size: 36px;
+	margin-bottom: 80px;
+
+}
+
+.slaider {
+    
+   .promo-slaider__slaid {
+	
+    	h1 {
+	  		font-size: 50px;
+    	}
+    	.text-slaid{
+    		padding:0 180px;
+    	}
+
+	}
+}
+.staff-item{
+    width: 50%;
+    padding: 0 20px 30px;
+}
+.staff-item:hover .staff-item__foto  {
+    background-image: none;
+    margin-bottom: 24px;
+     	       
+}
+.staff-item__foto {
+    margin-bottom: 20px;
+}
+.staff-item__description{
+    padding: 0 50px;
+}
+.plans-card {
+
+    .plans-card__title{
+		font-size: 20px;
+	    padding: 10px 0;
+	}
+    li {
+      	padding: 10px 0;
+	}
+}       
+}
+/*/////////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 900px) {
+.slaider {
+  padding:0 30px;
+
+    .right-control, .left-control{
+        width: 30px;
+        height: 30px;	
+
+	}
+   .promo-slaider__slaid {
+	
+    	h1 {
+	  		font-size: 40px;
+    	}
+    	.text-slaid{
+    		font-size: 20px;
+    		padding:0 120px;
+    	}
+    	.button {
+        	font-size: 18px;
+        	padding: 15px 40px;
+        }
+       
+    }
+}
+
+.team, .plans, .contact{
+	padding: 60px 0 ;
+}
+
+.plans-card {
+ 	width: 100%;
+  	padding:0 200px;
+  	margin-bottom: 50px;
+    	.plans-card__title{
+			font-size: 26px;
+	    	padding: 13px 0;
+	    }
+         li {
+      	padding: 10px 0;
+	    }
+} 
+  
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 790px) {
+h2 { 
+	margin-bottom: 50px;
+}	
+
+.navigator {
+	a {
+     	padding: 39px 15px;
+    }
+}
+.staff-item__name{
+    font-size: 20px;
+    line-height: 45px;
+    	} 
+.staff-item__description{
+  	font-size: 12px;
+  	padding: 0 85px;
+}
+.plans-card {
+    padding:0 100px;
+    .plans-card__title{
+		font-size: 20px;
+	    padding: 10px 0;
+	}
+
+}    	
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 690px) {
+.promo-slaider{
+	margin-top: 113px;
+}  
+	.slaider {
+    padding: 0;
+		.right-control, .left-control {
+      		display: none;
+	    }
+
+		.promo-slaider__slaid {
+	
+    	h1 {
+	  		font-size: 30px;
+    	}
+    	.text-slaid{
+    		font-size: 16px;
+    		line-height: 30px;
+    		padding: 0 70px;
+    	}
+    	.button {
+        	font-size: 16px;
+        	padding: 12px 40px;
+        }
+       
+    	}
+    }
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0 0 15px;	
+}
+.navigator {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+
+   	li{
+   		margin: 0 4px;
+   	}
+	a {
+   		padding: 10px 20px;
+    }
+}
+.staff-item{
+    width: 100%;
+    padding: 0 20px 30px;
+}
+
+}
+/*///////////////////////////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 625px) {
+.promo-slaider{
+	margin-top: 122px;
+}  
+	.slaider {
+		.promo-slaider__slaid {
+	
+    	h1 {
+	  		font-size: 30px;
+    	}
+    	.text-slaid{
+    		font-size: 14px;
+    		line-height: 30px;
+    		padding: 0 40px;
+    	}
+    	.button {
+        	font-size: 14px;
+       		padding: 12px 40px;
+        }
+        }
+    }
+    
+.navigator {
+   	
+   	ul{
+   		display: none;
+   	}
+   	
+    .menu{
+  		display: inline-block;
+    	cursor: pointer;
+    }
+
+   	li{
+    display: block;
+	margin: 0 auto;
+   	}
+}
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 560px) {
+  .staff-item__description{
+    padding: 0;
+}
+
+.plans-card {
+  	padding: 0 20px;
+    .plans-card__title{
+		font-size: 20px;
+	    padding: 10px 0;
+	}
+	li:nth-child(7n + 1){
+        font-size: 16px;
+        padding: 10px 0;
+    }
+    li {
+      	padding: 5px 0;
+	}
+} 
+
+.btn-buy {
+	font-size: 16px;
+	padding: 8px 40px;
+}
+.contact{
+	.contact-col50{
+		p {
+			padding: 0 20px;
+		}
+	}
+}   
+
+form{
+	
+	.name {
+		
+		float: none;
+		width: 100%
+	}
+	.email{
+       float: none;
+       width: 100%;
+	}
+	
+}
+
+
+}  	
+
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 370px) {
+	.slaider {
+		.promo-slaider__slaid {
+	
+    	h1 {
+	  		font-size: 25px;
+    	}
+    	.text-slaid{
+    		font-size: 14px;
+    		line-height: 25px;
+    		padding: 0 40px;
+    	}
+    	.button {
+        	font-size: 14px;
+        	padding: 8px 40px;
+        }
+        }
+    }
+
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////*/

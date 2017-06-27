@@ -1,0 +1,265 @@
+@import "var";
+
+.logo {
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+/*--------------------------------------------------*/
+.navigator {
+
+	.display {
+
+		display: block;
+	}
+
+	.menu{
+		display: none;
+		margin-bottom: 30px;
+		border-bottom: 2px solid $lightblue;
+    }
+ 
+	@include list;
+
+	li {
+
+
+      	&:hover a {
+        color: $lightblue;
+  	    }
+  	&:hover {
+  		background-color:#f8f9fb;
+  		border-bottom: 2px solid $lightblue;
+        }
+
+	
+    }
+	
+	 a {
+   
+    color: #4e525d;
+    padding: 39px 20px;
+    }
+}
+/*----------------Promo-slaider-----------------------------------------*/
+.slaider {
+	width: 100%;
+	padding: 0 55px;
+	margin-left: auto;
+	margin-right: auto;
+    .promo-slaider__slaid {
+	padding-top: 100px;
+	padding-bottom: 145px;
+
+    	h1 {
+	  	font-size: 63px;
+      	line-height: 24px;
+      	text-shadow: $text-shadow;
+    	}
+    	.text-slaid{
+    	font-size: 23px;
+    	line-height: 37px;
+    	padding:0 350px;
+    	margin-bottom: 50px;
+    	}
+
+	}
+}
+/*-----------------------------Button--------------------------------*/
+
+.button {
+	@include button;
+	font-size: 26px;
+	line-height: 24px;
+	border:2px solid #fff;
+	padding: 20px 40px;
+
+    &:hover {
+        background-color: $color-opacity;
+        color: $lightblue;
+	}
+}
+
+.btn-buy {
+	@include button;
+	display: block;
+	background-color: $color-gray;
+	font-size: 17px;
+	padding: 12px 50px;
+
+    &:hover{
+       background-color: $lightblue;
+      }
+    
+}
+.submit{
+	@include button;
+	cursor: pointer;
+	padding: 15px 50px;
+	float: right;
+	font-size: 22px;
+	background-color: $lightblue;
+	border:none;
+}
+
+
+/*---------------------------Staff-item------------------------------*/
+
+	.staff-item {
+		position: relative;
+		float: left;
+		width: 25%;
+		padding-left: 20px;
+		padding-right: 20px;
+}
+           .staff-item:hover .staff-item__foto  {
+     	        background: url('../img/plus-foto.png') no-repeat;
+
+     	        background-position: 100px 80px;
+     	        margin-bottom: 59px;
+     	        max-width: 100%;
+     	        height:200px;
+     	        border-radius: 50%;
+     	       
+             }
+        
+          .staff-item:hover .staff-item__foto img{
+          	opacity: .3;
+
+          }
+		
+
+        .staff-item__foto {
+    	 
+    	   margin: 0 auto;
+    	   margin-bottom: 55px;
+    	   margin-top: 15px;
+
+    	   img {
+    	    width: 200px;
+    	    height: 200px;
+    	   	border-radius: 50%;
+    	   	position: relative;
+
+           }
+
+       }
+        .staff-item__name{
+    	   font-size: 24px;
+    	   line-height: 45px;
+    	}   
+       .staff-item__position {
+       	   display: block;
+       	   margin-bottom: 20px;
+       }
+       .staff-item__description{
+       	margin: 0;
+       }
+/*------------------Plans-card-----------------------*/
+
+.plans-card {
+	float: left;
+	width: 33.33%;
+	padding: 0 10px;
+    text-align: center;
+
+    .plans-card__title{
+		font-size: 26px;
+		line-height: 48px;
+	    padding: 13px 0;
+	    color: #fff;
+        background-color: $color-gray;
+    }
+    .hover {
+	    background-color: $lightblue;
+	    }
+
+	@include list;
+    li {
+      	display: block;
+      	padding: 13px 0;
+      	background-color: #fff;
+      	border-bottom: 1px solid #ecf0f1;
+	}
+    li:nth-child(7n + 1){
+        font-size: 20px;
+        padding: 20px 0;
+        background-color: #f8f9fb;
+    }
+
+	a{
+   	   display: inline-block;
+   	   text-decoration: none;
+   }
+}
+
+/*-----------Contact-----------------------------*/
+
+.contact{
+
+	color: #fff;
+
+	.contact-col50{
+		float: left;
+		width: 50%;
+
+		b {
+			font-size: 24px;
+			line-height: 24px;
+		}
+		p:nth-child(4){
+			color: #8e81a6;
+			margin: 0;
+		}
+
+		p {
+			line-height: 21px;
+			margin-bottom: 35px;
+			padding-right: 120px;
+		}
+	}
+}
+.social {
+   
+    margin-bottom: 20px;
+	@include list;
+
+	
+    a {
+    	@include social-bg;
+    	background-image: url(../img/sprite.png);
+    	background-repeat: no-repeat;
+    }
+    
+	.fb {
+		background-position: 0 0;
+		
+	}
+	.tw {
+		background-position: -55px 0;
+		
+	}
+	.google {
+		background-position: -113px 0;
+		
+	}
+}
+/*--------------------Form---------------------------*/
+form{
+	position: relative;
+	.name {
+		@include input;
+		float: left;
+	}
+	.email{
+        @include input;
+		float: right;
+	}
+	.textarea{
+		@include input;
+		width: 100%;
+	}
+	
+}
+
+
